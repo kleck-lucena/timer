@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+.rabbit{
+  position: absolute;
+  border-radius: 75%;
+  margin-top: 5px;
+}
+
+h1{
+  font-size: 80px;
+  line-height: 80px;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 100px;
+}
+
+button{
+  height: 60px;
+  width: 120px;
+  border: none;
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  line-height: 28px;
+  text-align: center;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  
+}
+
+button:hover{
+  cursor: pointer;
+}
+button:active{
+  opacity: 0.3;
+}
+.start-btn{
+  background-color: green;
+}
+.pause-btn{
+  background-color: rgb(189, 189, 28);
+}
+.stop-btn{
+  background-color: red;
+}
+
